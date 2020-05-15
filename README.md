@@ -1,2 +1,0 @@
-# EU
-Empirical utility maximization
