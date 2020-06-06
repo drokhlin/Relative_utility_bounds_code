@@ -16,10 +16,10 @@ Section 5
 
      NYSE_1_log_GDSEG.ipynb --> log_opt_portf_NYSE_1.txt
      
-     """ This notebook computes optimal portfolio weights for NYSE_1 dataset in the case of logarithmic utility.
+     """ This notebook computes optimal portfolio weights for NYSE_1 dataset in the case of logarithmic utility.     
+         The results for 30 experiments of the GDSEG algorithm are written to the file log_opt_portf_NYSE_1.txt
+     """ 
      
-  The results for 30 experiments of the GDSEG algorithm are written to the file log_opt_portf_NYSE_1.txt
-  """ 
  NYSE_1_Table_2.ipynb 
    """ This notebook 
   (1) takes optimal portfolios from the file log_opt_portf_NYSE_1.txt, which correspond to n_experiment=30 runs of the GDSEG algorithm 
