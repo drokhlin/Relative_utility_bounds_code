@@ -81,4 +81,12 @@ Section 5
     (4) evaluates statistical characteristics of the cumulative wealth of these portfolios, using 
     large number (n_BS_realizations=100000) of realizations of the Black-Scholes model; the same for 
     uniform and log-optimal portfolios (Table 5 of the paper)
+     """
+    
+    BS_model_hist.ipynb
+    """ This notebook computes Figure 4 of the paper
+    (1) downloads optimal portfolio weights from the file portf_al02.txt
+    (2) evaluates their true utilities
+    (3) computes Figure 4 of the paper
     """
+
