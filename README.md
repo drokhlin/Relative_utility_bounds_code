@@ -5,7 +5,9 @@ Logical file sequences
 Section 4
 
   1_risky_bisection.ipynb
+  
     """Bisection method for the power utility u(x)=x**alpha in the case of 1 risky asset. Computes Table 1"""
+    
   1_risky_figures.ipynb
     """ This notebook computes Figures 1-3 """
 Section 5
