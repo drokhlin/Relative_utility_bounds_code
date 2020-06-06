@@ -74,7 +74,11 @@ Section 5
     Table_5.ipynb
     """ 
     (1) computes the parameters of the Black-Scholes model for NYSE_2 dataset
-    (2) takes optimal portfolios for ordinary and relative power utilies from the files alpha_ordinary_opt_portf.txt and alpha_relative_opt_portf, formed by the notebooks GDSEG_alpha_ordinary.ipynb and GDSEG_alpha_relative.ipynb  
+    (2) takes optimal portfolios for ordinary and relative power utilies from the files 
+    alpha_ordinary_opt_portf.txt and alpha_relative_opt_portf, formed by the notebooks 
+    GDSEG_alpha_ordinary.ipynb and GDSEG_alpha_relative.ipynb  
     (3) drops small weights and normalizes the remaining ones
-    (4) evaluates statistical characteristics of the cumulative wealth of these portfolios, using large number (n_BS_realizations=100000) of realizations of the Black-Scholes model; the same for uniform and log-optimal portfolios (Table 5 of the paper)
+    (4) evaluates statistical characteristics of the cumulative wealth of these portfolios, using 
+    large number (n_BS_realizations=100000) of realizations of the Black-Scholes model; the same for 
+    uniform and log-optimal portfolios (Table 5 of the paper)
     """
