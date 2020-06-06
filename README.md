@@ -8,11 +8,16 @@ Section 4
   
     """Bisection method for the power utility u(x)=x**alpha in the case of 1 risky asset. Computes Table 1"""
     
-  1_risky_figures.ipynb
+    1_risky_figures.ipynb
+    
     """ This notebook computes Figures 1-3 """
+    
 Section 5
- NYSE_1_log_GDSEG.ipynb --> log_opt_portf_NYSE_1.txt
-  """ This notebook computes optimal portfolio weights for NYSE_1 dataset in the case of logarithmic utility.
+
+     NYSE_1_log_GDSEG.ipynb --> log_opt_portf_NYSE_1.txt
+     
+     """ This notebook computes optimal portfolio weights for NYSE_1 dataset in the case of logarithmic utility.
+     
   The results for 30 experiments of the GDSEG algorithm are written to the file log_opt_portf_NYSE_1.txt
   """ 
  NYSE_1_Table_2.ipynb 
