@@ -63,11 +63,12 @@ Section 5
     
      alpha_Table_4.ipynb
     """  
-    (1) takes optimal portfolios for ordinary and relative power utilies from the files alpha_ordinary_opt_portf.txt
-    and alpha_relative_opt_portf, computed by the notebooks GDSEG_alpha_ordinary.ipynb and GDSEG_alpha_relative.ipynb  
+    (1) takes optimal portfolios for ordinary and relative power utilies from the files 
+    alpha_ordinary_opt_portf.txt and alpha_relative_opt_portf, computed by the notebooks 
+    GDSEG_alpha_ordinary.ipynb and GDSEG_alpha_relative.ipynb  
     (2) drops small weights and normalizes the remaining ones
-    (3) constructs the tables containing optimal weights, total wealth, annual return and annual volatility for each
-    porftolio (Table 4 of the paper)
+    (3) constructs the tables containing optimal weights, total wealth, annual return and annual
+    olatility for each porftolio (Table 4 of the paper)
      """
      
     Table_5.ipynb
