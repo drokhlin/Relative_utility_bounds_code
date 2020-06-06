@@ -1,4 +1,4 @@
-This repository contains code for Sctions 4 and 5 of the paper "Relative utility bounds for empirically optimal portfolios"
+This repository contains code for Sections 4 and 5 of the paper "Relative utility bounds for empirically optimal portfolios"
 
 Logical file sequence
 
