@@ -22,10 +22,12 @@ Section 5
      
     NYSE_1_Table_2.ipynb 
     """  
-    (1) takes optimal portfolios from the file log_opt_portf_NYSE_1.txt, which correspond to n_experiment=30 runs of the GDSEG algorithm 
+    (1) takes optimal portfolios from the file log_opt_portf_NYSE_1.txt, which correspond to n_experiment=30 runs
+    of the GDSEG algorithm 
     (2) drops small weights and normalizes the remaining ones
     (3) constructs the table containing optimal weights, total wealth and annual return for each portolio
-    (4) constructs the table containing minimal and maximal values of each weight in these portfolios (Table 2 of the paper)
+    (4) constructs the table containing minimal and maximal values of each weight in these portfolios 
+    (Table 2 of the paper)
     The file log_opt_portf_NYSE_1.txt should be constructed by NYSE_1_log_GDSEG.ipynb beforehand
     """
     
