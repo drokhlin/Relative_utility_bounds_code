@@ -20,9 +20,9 @@ Section 5
          The results for 30 experiments of the GDSEG algorithm are written to the file log_opt_portf_NYSE_1.txt
      """ 
      
-     NYSE_1_Table_2.ipynb 
-     """ This notebook 
-     (1) takes optimal portfolios from the file log_opt_portf_NYSE_1.txt, which correspond to n_experiment=30 runs of the GDSEG algorithm 
+    NYSE_1_Table_2.ipynb 
+    """ This notebook 
+    (1) takes optimal portfolios from the file log_opt_portf_NYSE_1.txt, which correspond to n_experiment=30 runs of the GDSEG algorithm 
     (2) drops small weights and normalizes the remaining ones
     (3) constructs the table containing optimal weights, total wealth and annual return for each portolio
     (4) constructs the table containing minimal and maximal values of each weight in these portfolios (Table 2 of the paper)
