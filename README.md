@@ -38,30 +38,36 @@ Section 5
     
     NYSE_2_Table_3.ipynb
     """ 
-    (1) takes optimal portfolios from the file log_opt_portf_NYSE_2.txt, which correspond to n_experiment=30 runs of the GDSEG algorithm 
+    (1) takes optimal portfolios from the file log_opt_portf_NYSE_2.txt, which correspond to n_experiment=30 runs
+    of the GDSEG algorithm 
     (2) drops small weights and normalizes the remaining ones
     (3) constructs the table containing optimal weights, total wealth and annual return for each portolio
-    (4) constructs the table containing minimal and maximal values of each weight in these portfolios (Table 3 of the paper)
+    (4) constructs the table containing minimal and maximal values of each weight in these portfolios 
+    (Table 3 of the paper)
     The file log_opt_portf_NYSE_2.txt should be constructed by NYSE_2_log_GDSEG.ipynb beforehand
     """
     
     GDSEG_alpha_ordinary.ipynb --> alpha_ordinary_opt_portf.txt
      """ Computes optimal portfolio weights for NYSE_2 dataset in the case of ordinary power utility.
-    For each alpha in alphas=[0.01,0.1,0.2,0.3,0.5,0.75] it takes an output of the GDSEG algorithm, corresponding to the largest value of the empirical utility function, obtained after n_experiments=10 experiments. 
+    For each alpha in alphas=[0.01,0.1,0.2,0.3,0.5,0.75] it takes an output of the GDSEG algorithm, corresponding
+    to the largest value of the empirical utility function, obtained after n_experiments=10 experiments. 
     These optimal portfolios are written to the file alpha_ordinary_opt_portf.txt
     """
     
     GDSEG_alpha_relative.ipynb --> alpha_relative_opt_portf.txt
      """ Computes optimal portfolio weights for NYSE_2 dataset in the case of the relative power utility.
-     For each alpha in alphas=[0.01,0.1,0.2,0.3,0.5,0.75] it takes an output of the GDSEG algorithm, corresponding to the largest value of the empirical utility function, obtained after n_experiments=10 experiments. 
+     For each alpha in alphas=[0.01,0.1,0.2,0.3,0.5,0.75] it takes an output of the GDSEG algorithm, corresponding
+     to the largest value of the empirical utility function, obtained after n_experiments=10 experiments. 
     These optimal portfolios are written to the file alpha_relative_opt_portf.txt
     """
     
      alpha_Table_4.ipynb
     """  
-    (1) takes optimal portfolios for ordinary and relative power utilies from the files alpha_ordinary_opt_portf.txt and alpha_relative_opt_portf, computed by the notebooks GDSEG_alpha_ordinary.ipynb and GDSEG_alpha_relative.ipynb  
+    (1) takes optimal portfolios for ordinary and relative power utilies from the files alpha_ordinary_opt_portf.txt
+    and alpha_relative_opt_portf, computed by the notebooks GDSEG_alpha_ordinary.ipynb and GDSEG_alpha_relative.ipynb  
     (2) drops small weights and normalizes the remaining ones
-    (3) constructs the tables containing optimal weights, total wealth, annual return and annual volatility for each porftolio      (Table 4 of the paper)
+    (3) constructs the tables containing optimal weights, total wealth, annual return and annual volatility for each
+    porftolio (Table 4 of the paper)
      """
      
     Table_5.ipynb
