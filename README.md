@@ -50,23 +50,22 @@ Section 5
     """
     
     GDSEG_alpha_relative.ipynb --> alpha_relative_opt_portf.txt
-     """ This notebook computes optimal portfolio weights for NYSE_2 dataset in the case of the relative power utility.
-    For each alpha in alphas=[0.01,0.1,0.2,0.3,0.5,0.75] it takes an output of the GDSEG algorithm, corresponding to the largest value of the empirical utility function, obtained after n_experiments=10 experiments. 
+     """ Computes optimal portfolio weights for NYSE_2 dataset in the case of the relative power utility.
+     For each alpha in alphas=[0.01,0.1,0.2,0.3,0.5,0.75] it takes an output of the GDSEG algorithm, corresponding to the largest value of the empirical utility function, obtained after n_experiments=10 experiments. 
     These optimal portfolios are written to the file alpha_relative_opt_portf.txt
     """
     
- alpha_Table_4.ipynb
-  """ This notebook 
-  (1) takes optimal portfolios for ordinary and relative power utilies from the files alpha_ordinary_opt_portf.txt and alpha_relative_opt_portf, computed by the notebooks GDSEG_alpha_ordinary.ipynb and GDSEG_alpha_relative.ipynb  
-  (2) drops small weights and normalizes the remaining ones
-  (3) constructs the tables containing optimal weights, total wealth, annual return and annual volatility for each porftolio (Table 4 of the paper)
-  """
- Table_5.ipynb
-  """ This notebook 
-  (1) computes the parameters of the Black-Scholes model for NYSE_2 dataset
-  (2) takes optimal portfolios for ordinary and relative power utilies from the files alpha_ordinary_opt_portf.txt and alpha_relative_opt_portf, 
-  formed by the notebooks GDSEG_alpha_ordinary.ipynb and GDSEG_alpha_relative.ipynb  
-  (3) drops small weights and normalizes the remaining ones
-  (4) evaluates statistical characteristics of the cumulative wealth of these portfolios, using large number (n_BS_realizations=100000) of realizations of the Black-Scholes model; 
-  the same for uniform and log-optimal portfolios (Table 5 of the paper)
-  """
+     alpha_Table_4.ipynb
+    """  
+    (1) takes optimal portfolios for ordinary and relative power utilies from the files alpha_ordinary_opt_portf.txt and alpha_relative_opt_portf, computed by the notebooks GDSEG_alpha_ordinary.ipynb and GDSEG_alpha_relative.ipynb  
+    (2) drops small weights and normalizes the remaining ones
+    (3) constructs the tables containing optimal weights, total wealth, annual return and annual volatility for each porftolio      (Table 4 of the paper)
+     """
+     
+    Table_5.ipynb
+    """ 
+    (1) computes the parameters of the Black-Scholes model for NYSE_2 dataset
+    (2) takes optimal portfolios for ordinary and relative power utilies from the files alpha_ordinary_opt_portf.txt and alpha_relative_opt_portf, formed by the notebooks GDSEG_alpha_ordinary.ipynb and GDSEG_alpha_relative.ipynb  
+    (3) drops small weights and normalizes the remaining ones
+    (4) evaluates statistical characteristics of the cumulative wealth of these portfolios, using large number (n_BS_realizations=100000) of realizations of the Black-Scholes model; the same for uniform and log-optimal portfolios (Table 5 of the paper)
+    """
