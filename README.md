@@ -1,4 +1,5 @@
 This repository contains code for Sections 5 and 6 of the paper 
+
 D.B.Rokhlin "Relative utility bounds for empirically optimal portfolios"
 
 Logical file sequence
