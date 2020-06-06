@@ -1,8 +1,8 @@
-This repository contains code for Sections 4 and 5 of the paper "Relative utility bounds for empirically optimal portfolios"
+This repository contains code for Sections 5 and 6 of the paper "Relative utility bounds for empirically optimal portfolios"
 
 Logical file sequence
 
-Section 4
+Section 5
 
     1_risky_bisection.ipynb
   
@@ -12,7 +12,7 @@ Section 4
     
     """ Computes Figures 1-3 """
     
-Section 5
+Section 6
 
     NYSE_1.cls contains 5651 daily returns of 36 stocks for the period ending in 1984. 
 
