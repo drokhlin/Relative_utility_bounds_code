@@ -1,6 +1,9 @@
 This repository contains code for Sctions 4 and 5 of the paper "Relative utility bounds for empirically optimal portfolios"
+
 Logical file sequences
+
 Section 4
+
   1_risky_bisection.ipynb
     """Bisection method for the power utility u(x)=x**alpha in the case of 1 risky asset. Computes Table 1"""
   1_risky_figures.ipynb
