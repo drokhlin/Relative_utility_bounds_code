@@ -1,4 +1,5 @@
 Logical file sequences
+
 Section 4
  1_risky_bisection.ipynb
  1_risky_figures.ipynb
