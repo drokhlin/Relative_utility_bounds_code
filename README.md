@@ -14,6 +14,12 @@ Section 4
     
 Section 5
 
+NYSE_1.cls contains 5651 daily returns of 36 stocks for the period ending in 1984. 
+
+NYSE_2.cls contains 11178 daily returns of 19 stocks for the period ending in 2006.
+
+Both datasets are available from the webpage of G.Ottucs{\'a}k: \url{http://www.cs.bme.hu/~oti/portfolio/data.html}.
+
      NYSE_1_log_GDSEG.ipynb --> log_opt_portf_NYSE_1.txt
      
      """ Computes optimal portfolio weights for NYSE_1 dataset in the case of logarithmic utility.     
