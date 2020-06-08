@@ -8,11 +8,18 @@ Section 5
 
     1_risky_bisection.ipynb
   
-    """Bisection method for the power utility u(x)=x**alpha in the case of 1 risky asset. Computes Table 1"""
+    """ Bisection method for the power utility u(x)=x**alpha in the case of 1 risky asset. 
+    (1) computes Table 1
+    (2) computes the optimal weight of the risky asset and its true utility, using large sample
+    """
     
-    1_risky_figures.ipynb
+    1_risky_bis_hist.ipynb
     
-    """ Computes Figures 1-3 """
+    """ For alpha=0.2 and n_experiments=200 realizations of daily returns of the risky asset this notebook 
+    (1) computes optimal portfolios, usiong the bisection method
+    (2) evaluates true utilities of these portfolios, usinng a large sample 
+    (3) computes histograms in Fig.1-3 of the paper
+    """
     
 Section 6
 
