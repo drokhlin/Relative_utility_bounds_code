@@ -104,9 +104,10 @@ Section 6
     """
     
     BS_model_hist.ipynb
-    """ This notebook computes Figure 4 of the paper
+    """ Computes Figure 2 of the paper
     (1) downloads optimal portfolio weights from the file portf_al02.txt
     (2) evaluates their true utilities
-    (3) computes Figure 4 of the paper
-    """
+    (3) computes Figure 2 of the paper
+    """  
+
 
