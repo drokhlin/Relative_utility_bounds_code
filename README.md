@@ -27,7 +27,7 @@ Section 6
 
     NYSE_2.cls contains 11178 daily returns of 19 stocks for the period ending in 2006.
 
-    Both datasets are available from the webpage of G.Ottucsak: http://www.cs.bme.hu/~oti/portfolio/data.html.
+    Both datasets were taken from http://www.cs.bme.hu/~oti/portfolio/data.html.
 
      NYSE_1_log_GDSEG.ipynb --> log_opt_portf_NYSE_1.txt
      
